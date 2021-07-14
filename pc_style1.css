@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*file name: pc_style1.css  CSS Document */
+
+/* HTML body style*/
+html{
+	background-color:#666;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+body{
+	background-color:#805B40;
+}
+
+/* horizontal navigation*/
+nav.horizontalNavigation a{
+	background-color:rgb(153,153,153);
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:1.4em;
+	line-height:2.0em;
+	text-align:center;
+	color:rgb(255,255,255);
+}
+nav.horizontalNavigation a{
+	background-color:rgb(153,153,153);
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:1.4em;
+	line-height:2.0em;
+	text-align:center;
+	color:rgb(255,255,255);
+}
+nav.verticalNavigation a{
+	color:#000;
+	font-size:1.0em;
+	line-height:1.5em;
+	text-align:center;
+}
+
+nav.verticalNavigation h1{
+	background-color:#B29600;
+	font-size:1.2em;
+	line-height:2.0em;
+	text-align:center;
+}
+
+nav.verticalNavigation li{
+	text-align:center;
+}
+footer{
+	background-color:#7F6B00;
+}
+
+section#contactNas h1 {
+	background-color:#B29600;
+	font-size:1.2em;
+	line-height:2.0em;
+}

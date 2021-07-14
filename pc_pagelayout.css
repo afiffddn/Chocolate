@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*file name:pc_pagelayout.css CSS Document */
+
+/*body style*/
+body{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:960px;
+	min-width:620px;
+	width:95%;
+}
+
+body > header > img{
+	display:block;
+	width:100%;
+}
+
+body > header > nav.horizontalNavigation li{
+	width:20%;
+}
+
+nav.horizontalNavigation li{
+	display:block;
+	float:left;
+}
+
+nav.horizontalNavigation a{
+	display:block;
+	text-align:center;
+}
+
+/*left column style*/
+
+section#leftColumn{
+	clear:left;
+	width:30%;
+	float:left;
+	padding:1.5em;
+}
+
+/*right column style*/
+
+section#rightColumn{
+	float:left;
+	width:60%;
+}
+
+section#rightColumn img{
+	display:block;
+	width:100%;
+}
+
+section#rightColumn > nav.horizontalNavigation li{
+	width:25%;
+}
+
+/*footer style*/
+footer{
+	clear:left;
+}
+
+footer::after{
+	clear:both;
+	content:"";
+	display:table;
+}
+
+footer > nav.verticalNavigation{
+	float:left;
+	width:20%;
+}
+
+footer > section#contactNas{
+	float:left;
+	width:30%;
+
+}
